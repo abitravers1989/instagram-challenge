@@ -5,6 +5,9 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+gem 'bootstrap-sass'
+
+
 gem 'simple_form'
 
 gem 'paperclip', '~> 4.2'
@@ -41,6 +44,9 @@ group :development, :test do
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
+
+  gem 'factory_girl_rails'
+
 end
 
 group :development do

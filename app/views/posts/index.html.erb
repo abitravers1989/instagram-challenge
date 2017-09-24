@@ -1,6 +1,9 @@
+
+
+
 <h1> Larmstagram </h1>
 
-<% @posts.each do |post| %>
+<% @posts.reverse.each do |post| %>
 <%=image_tag post.image.url(:medium) %>
 <%= post.caption %>
   <% end %>
