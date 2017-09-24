@@ -1,6 +1,63 @@
 Instagram Challenge
 ===================
 
+User Story
+
+```bash
+
+As a user of Larmstagram
+I think my pictures and other people seeing them are the only point of the application.
+So that I can share my pictures,
+I want to be able to upload pictures to Larmz app.
+
+As a user of Larmstagram
+I want to be able to show off how great my life is.
+So that I can include text with my photos.
+I want to be able to write comments and captions with my pictures.
+
+As a user of Larmstagram
+I think I take the best pictures and want everyone to see just how great I know they are.
+So I want to be able to like MY OWN pictures
+
+As a user of Larmstagram
+So that all my pictures are in one place.
+I want to be able to sign up for a Larms account.
+
+As a user of Larmstagram
+I recognise that this application is infinitely better than the old Instagram.
+So my pictures are secure and I can feel valued and individual.
+I want to be able to sign in and out.
+
+As a user of Larmstagram
+I want to feel like the application knows I am special, it remembers me and it knows things about me which make me feel special.
+So I know my pictures are within my control.
+I want to be able to be remembered when I am signed in.
+
+As a user of Larmstagram
+I imagine everyone else will only care about me and my pictures but just to draw attention to me and how my life is more fun than theirs
+So that I can share my extremely important thoughts.
+I want to be able to like and comment on other peoples pictures.
+(However this is just a bonus as I mainly am only bothered with myself)
+
+```
+
+
+
+
+
+First, clone this repository. Then:
+
+```bash
+bundle install
+bin/rails db:create
+bin/rails db:migrate
+
+bundle exec rspec # Run the tests to ensure it works
+bin/rails server # Start the server at localhost:3000
+```
+
+
+
 ## Instructions
 
 * Challenge time: one weekend
